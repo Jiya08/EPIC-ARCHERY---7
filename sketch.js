@@ -123,7 +123,7 @@ function draw() {
   fill("#FFFF");
   textAlign("center");
   textSize(30);
-  text("Score: ", 600, 100);
+  text("Score: " +score, width-300, 100);
 
 }
 
